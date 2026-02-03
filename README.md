@@ -1,16 +1,65 @@
-# project
+# 🍔 Flutter Food Ordering App
 
-A new Flutter project.
+Modern mimari ve kullanıcı deneyimi odaklı geliştirilmiş bir **Flutter yemek sipariş uygulaması**.  
+Uygulama; ürün listeleme, favoriler, sepet yönetimi ve animasyonlu splash ekranı içerir.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Özellikler
 
-A few resources to get you started if this is your first Flutter project:
+- 🏠 Ürün listeleme (Grid yapısı)
+- 🔍 Arama (real-time filtreleme)
+- ❤️ Favori ürünler
+- 🛒 Sepet yönetimi
+  - Ürün ekleme / silme
+  - Adet artırma / azaltma
+  - Toplam fiyat hesaplama
+- 🎬 Lottie animasyonlu Splash Screen
+- 📦 Clean Architecture (Entity – Repository – Cubit)
+- 🎨 Modern & minimal UI
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧠 Kullanılan Teknolojiler
+
+### 🚀 Core
+- **Flutter (Dart)**
+- **Material Design**
+
+### 🧩 State Management
+- **flutter_bloc (Cubit)**  
+  - `HomeCubit`
+  - `FavoritesCubit`
+  - `CartCubit`
+
+### 📦 Architecture
+- **Clean Architecture**
+  - `data`
+    - `entity`
+    - `repositories`
+  - `ui`
+    - `cubit`
+    - `views`
+
+### 🌐 Network
+- **RESTful API**
+- **Dio**
+- JSON parsing (Model & Response yapıları)
+
+### 🎞 Animasyon
+- **Lottie**
+  - Splash screen animasyonu (`json` asset)
+
+---
+
+## 🎨 UI / UX Yaklaşımı
+
+- Soft gri arkaplan (`#F5F6FA`)
+- Ana tema rengi: **Deep Purple**
+- Kart bazlı tasarım
+- Rounded corners & shadow
+- Sabit bottom total bar (Cart)
+- Kullanıcı dostu minimal tasarım
+
+---
+
